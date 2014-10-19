@@ -15,7 +15,7 @@ Crawls website for blog entries. Gets the URL, title and date of each blog post.
 
 To run, use the command shown below (you need to have Scrapy installed).
 
-```  
+```Shell  
 scrapy crawl blog_spider
 ```
 
@@ -23,7 +23,7 @@ Data output into a SQLite database in current working directory.
 
 Example query:
 
-```
+```SQL
 SELECT strftime('%Y-%W', date) AS week, COUNT(url) FROM QC_scraped_data
 GROUP BY week
 ```
