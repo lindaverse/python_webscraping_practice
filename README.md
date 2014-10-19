@@ -15,7 +15,7 @@ Crawls website for blog entries. Gets the URL, title and date of each blog post.
 
 To run, use the command shown below (you need to have Scrapy installed).
 
-```Shell  
+```bash  
 scrapy crawl blog_spider
 ```
 
