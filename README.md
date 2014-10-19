@@ -21,4 +21,11 @@ scrapy crawl blog_spider
 
 Data output into a SQLite database in current working directory. 
 
+Example query:
+
+```
+SELECT strftime('%Y-%W', date) AS week, COUNT(url) FROM QC_scraped_data
+GROUP BY week
+```
+
 
