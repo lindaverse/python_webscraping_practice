@@ -14,8 +14,10 @@ Implementation using the Scrapy library.
 Crawls website for blog entries. Gets the URL, title and date of each blog post.
 
 To run, use the command shown below (you need to have Scrapy installed).
-  
-  scrapy crawl blog_spider
+
+```  
+scrapy crawl blog_spider
+```
 
 Data output into a SQLite database in current working directory. 
 
